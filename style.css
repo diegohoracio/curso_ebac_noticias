@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body > header {
+    background-color: black;
+    padding: 28px 0;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+time {
+    font-style: italic;
+    font-size: x-large;
+}
+
+h3 {
+    margin-top: 8px;
+}
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30pt;
+    font-weight: bold;
+    margin: 15px 0 15px 0;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 15pt;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto 0 auto; 
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 60%;
+    width: 100%;
+    border-radius: 2%;
+    margin-bottom: 6px;
+}
+
+.articles article {
+    width: 30%;
+    margin-top: 8px;
+    margin-bottom: 8px
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+h3, h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+
+#sports {
+    background-color: rgba(0,255,0,0.1);
+}
+
+#economy {
+    background-color: #fffb7e;
+}
+
+#tec {
+    background-color: rgba(112, 166, 228, 0.527);
+}
+
+#sports .articles article a{
+    background-color: #009432;
+}
+
+#economy .articles article a{
+    background-color: #ff9f1a;
+}
+
+#tec .articles article a{
+    background-color: #396385;
+}
+
+#entretenimento {
+    background-color: rgba(233, 109, 233, 0.603);
+}
+
+#entretenimento .articles article a{
+    background-color: #94225b69;
+}
+
+.rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.rodape p {
+    color: white;
+    background-color: black;
+    padding: 50px;
+    font-size: xx-large;
+}
+
+.rodape p a {
+    text-decoration: none;
+    color: white;
+}
